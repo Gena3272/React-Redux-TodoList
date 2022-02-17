@@ -5,7 +5,10 @@ interface HeaderProps {
 }
 
 const Header = ({ title }: HeaderProps) => (
-  <div className="header">
+  <div
+      data-testid='header'
+      className="header"
+  >
     {title}
   </div>
 );

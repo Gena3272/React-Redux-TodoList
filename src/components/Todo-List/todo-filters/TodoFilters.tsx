@@ -1,6 +1,6 @@
 import React from 'react';
-import FilterLink from './containers/FilterLink';
-import { VisibilityFilters } from '../../types/types';
+import FilterLink from '../containers/FilterLink';
+import { VisibilityFilters } from '../../../types/types';
 
 interface CounterProps {
   taskCounter: {

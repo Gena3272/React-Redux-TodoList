@@ -7,7 +7,10 @@ interface EmptyMessageProps {
 const EmptyMassage = ({ message }: EmptyMessageProps) => (
   <div className="empty-list">
     <i className="fas fa-clipboard-list empty-icon" />
-    <span>{message}</span>
+    <span
+        data-testid='empty-message'>
+            {message}
+    </span>
   </div>
 );
 
