@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators, Dispatch } from 'redux';
-import Header from '../Header';
-import TodoFilters from '../TodoFilters';
-import TodoForm from '../TodoForm';
-import TodoItem from '../TodoItem';
+import Header from '../header/Header';
+import TodoFilters from '../todo-filters/TodoFilters';
+import TodoForm from '../todo-form/TodoForm';
+import TodoItem from '../todo-item/TodoItem';
 import * as itemsActions from '../../../store/actions/items';
 import { ApplicationState, Item, VisibilityFilters } from '../../../types/types';
-import TodoMessage from '../TodoMessage';
+import TodoMessage from '../todo-message/TodoMessage';
 
 interface StateProps {
   items: Item[],

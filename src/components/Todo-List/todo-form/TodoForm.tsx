@@ -25,7 +25,7 @@ const TodoForm = ({ emptyList, addItem }: TodoFormProps) => {
 
   return (
     <form onSubmit={submitHandler}>
-      <input ref={inputText} placeholder="What needs to be done?" />
+      <input aria-label='form-input' ref={inputText} placeholder="What needs to be done?" />
       <button type="submit">
         <i className="fas fa-plus" />
       </button>
